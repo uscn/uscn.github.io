@@ -2,8 +2,8 @@ $(document).ready(function() {
 
 
     $('#project_table').DataTable({
-    	"pageLength": 5,
-    	"lengthMenu": [ 5, 10, 15, "All"]
+    	"pageLength": 10,
+    	"lengthMenu": [ 10, 15, "All"]
     });
 
 
