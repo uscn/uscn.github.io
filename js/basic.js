@@ -19,7 +19,7 @@ $(document).ready(function() {
 
     $( ".dialog" ).dialog({ 
         autoOpen: false,
-        width: "100%",
+        width: "1050",
         height:"450" ,
         position: {
         my: 'top',
