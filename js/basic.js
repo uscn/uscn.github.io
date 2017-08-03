@@ -1,6 +1,5 @@
 $(document).ready(function() {
 
-
     $('#project_table').DataTable({
     	"pageLength": 10,
     	"lengthMenu": [ 10, 15, "All"]
@@ -19,8 +18,8 @@ $(document).ready(function() {
 
     $( ".dialog" ).dialog({ 
         autoOpen: false,
+        autoResize:true,
         width: "85%",
-        height:"450" ,
         position: {
         my: 'top',
         at: 'top',
