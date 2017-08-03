@@ -1,11 +1,5 @@
 $(document).ready(function() {
 
-    $('#project_table').DataTable({
-    	"pageLength": 10,
-    	"lengthMenu": [ 10, 15, "All"]
-    });
-
-
     var curPage="home";
     $("#"+curPage).show();
     $("#menu a").click(function() {
@@ -14,6 +8,11 @@ $(document).ready(function() {
         }
         curPage=$(this).data("page");
         $("#"+curPage).show();
+    });
+
+     $('#project_table').DataTable({
+        "pageLength": 10,
+        "lengthMenu": [ 10, 15, "All"]
     });
 
     $( ".dialog" ).dialog({ 
